@@ -1,0 +1,19 @@
+{
+  "name": "my-playwright-project",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^25.3.3",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.6.3"
+  }
+}
